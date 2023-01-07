@@ -9,9 +9,8 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-remote_theme             : "mmistakes/minimal-mistakes"
-#remote_theme            : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "default" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+remote_theme            : "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin    : "contrast" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "ko_KR"
@@ -107,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am interesting software."
   location         : "Somewhere"
-  email            :
+  email            : "test@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -131,24 +130,9 @@ author:
 # Site Footer
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-      # url:
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
-      # url:
-    # - label: "Bitbucket"
-    #   icon: "fab fa-fw fa-bitbucket"
-      # url:
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-      # url:
 
 
 # Reading Files
@@ -180,8 +164,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+#   - /docs # ignore Minimal Mistakes /docs
+#   - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
